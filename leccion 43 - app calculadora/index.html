@@ -1,0 +1,37 @@
+<!doctype html>
+<html >
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Calculadora</title>
+  </head>
+  <body>
+        <div class='container'>
+            <h1>Calculadora!</h1>
+
+            <form id="forma">
+                <div class="mb-3">
+                    <label for="operandoA">Operando A :</label>
+                    <input type="number" class="form-control" placeholder="operando A" id="a">
+                </div>
+                <div class="mb-3">
+                    <label for="operandoB">Operando B :</label>
+                    <input type="number" class="form-control" placeholder="operando B" id="b">
+                </div>
+                
+            </form>
+            <button  class="btn btn-primary mb-3" onclick="sumar()">Sumar</button>
+                <div id="resultado">
+
+                </div>
+        </div>
+        
+
+        <script src='js/app.js'></script>
+</body>
+</html>

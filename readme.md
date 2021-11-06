@@ -10,3 +10,6 @@ Crear una clase donde se puedan ordenar productos, los cuales cuentan con sus at
 
 ## Ejercicio 3 
 Realizar sistema de ventas para un comercio de computadores, se deberá hacer una clase que permita visualizar el pedido del cliente. 
+
+## Ejercicio 4 
+Realizar una calculadora sencilla implementando js y bootstrap. Utilizar eventos de js que interactuen con la pagina html
